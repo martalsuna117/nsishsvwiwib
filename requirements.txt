@@ -1,3 +1,0 @@
-requests==2.32.3
-subprocess.run==0.0.8
-hashlib==20081119
