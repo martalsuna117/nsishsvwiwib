@@ -1,0 +1,5 @@
+requests==2.32.3
+asyncio==3.4.3
+aiohttp==3.11.11
+eth-account==0.13.4
+colorama==0.4.6
